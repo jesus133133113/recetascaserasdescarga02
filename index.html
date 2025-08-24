@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Descargar App para Android</title>
+  <meta name="description" content="Descarga segura de la aplicación Android (APK).">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <main class="card">
+      <h1>Descargar la App (APK)</h1>
+      <p>
+        Este enlace está disponible solo en dispositivos <strong>Android</strong>.
+        Si estás en una PC o iPhone, abre esta página desde tu celular Android.
+      </p>
+
+      <div class="row" id="badges">
+        <span class="tag" id="ua">Detectando dispositivo…</span>
+        <span class="tag">Tamaño: <span id="size">—</span></span>
+        <span class="tag">Última actualización: <span id="date">—</span></span>
+      </div>
+
+      <div style="height:10px"></div>
+      <a id="dl" class="btn hidden"
+         href="app-release-5.apk"
+         download="app-release-5.apk"
+         rel="nofollow">⬇ Descargar APK</a>
+
+      <div id="msg"></div>
+
+      <footer>
+        <p>
+          ¿Problemas? Activa “Permitir desde esta fuente” al instalar.  
+          En algunos navegadores debes confirmar que quieres descargar el archivo.
+        </p>
+      </footer>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
